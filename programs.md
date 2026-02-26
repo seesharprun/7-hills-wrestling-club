@@ -12,7 +12,7 @@ Everything we do is free for current Richmond Public Schools students. The only 
 
 ## Monthly Rotating Practices
 
-We practice once a month on Thursdays, rotating across four RPS high schools. Each head coach hosts one session per month, keeping the commitment manageable while giving athletes exposure to different coaching styles and training partners.
+We practice once a month on Thursdays, rotating across four Richmond Public Schools (RPS) high schools. Each head coach hosts one session per month, keeping the commitment manageable while giving athletes exposure to different coaching styles and training partners.
 
 The schedule below is tentative — the final rotation is being finalized.
 

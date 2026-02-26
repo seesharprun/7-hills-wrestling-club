@@ -10,7 +10,7 @@ description: Common questions about joining Seven Hills Wrestling Club — cost,
 
 ## How much does it cost?
 
-Nothing beyond a [USA Wrestling card](https://www.usawmembership.com/). There are no club dues, no gear fees, and no hidden costs. Our goal is to keep wrestling completely free for every RPS student.
+Nothing beyond a [USA Wrestling card](https://www.usawmembership.com/). There are no club dues, no gear fees, and no hidden costs. Our goal is to keep wrestling completely free for every Richmond Public Schools (RPS) student.
 
 ## Who can join?
 
