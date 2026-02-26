@@ -1,10 +1,10 @@
 ---
 layout: home.njk
 title: Seven Hills Wrestling Club
-description: Seven Hills Wrestling Club offers disciplined wrestling training, strong fundamentals, and a supportive community for athletes at every level.
+description: Seven Hills Wrestling Club is a free, development-focused wrestling program for all Richmond Public Schools students. No fees beyond a USA Wrestling card.
 hero:
   title: Seven Hills Wrestling Club
-  description: A focused, local wrestling environment where athletes build fundamentals, toughness, and confidence through consistent training.
+  description: A free wrestling club for all Richmond Public Schools students. No tryouts, no fees — just show up, learn, and grow.
   image: /media/chris-chow-TxxSLvOvfCk-unsplash.jpg
 buttons:
   - text: View Programs
@@ -13,23 +13,23 @@ buttons:
     href: /contact/
 ---
 
-# Built on Discipline...
+# Wrestling for Every RPS Student
 
 ![Wrestling match in progress](/media/c-f-photography-D100o5TDCys-unsplash.jpg)
 
 ![Wrestling mat detail](/media/chris-chow-DCqXIFXoqr0-unsplash.jpg)
 
-We focus on the following three core areas:
+Seven Hills Wrestling Club is open to every current Richmond Public Schools student at no cost. All you need is a USA Wrestling card. We practice once a month on a rotating schedule across four RPS high schools, so the commitment stays manageable for families and coaches alike.
 
-## Fundamentals First
+## Development First
 
-Every athlete starts with a technical base: stance, motion, hand-fighting, and positional awareness. We emphasize clean drilling habits and repeatable movement patterns so wrestlers can execute confidently under pressure.
+Our program focuses on building skills, not grinding athletes down. Each session centers on technique, movement, and match awareness so every wrestler improves at their own pace — whether they are brand new or have years of experience.
 
-## Consistent Training
+## Free for All RPS Students
 
-Progress comes from consistency, not shortcuts. Our structured sessions balance instruction, live situations, and conditioning so athletes build skill week after week and can clearly feel improvement over time.
+There are no club dues, no gear fees, and no hidden costs. The only requirement is a USA Wrestling membership card, which provides insurance coverage for every participant. Our goal is to remove every barrier so any student who wants to wrestle can wrestle.
 
-## Strong Community
+## A City-Wide Team
 
-Our room is built on accountability, respect, and support. Beginners and experienced wrestlers train together in a positive culture that challenges everyone to improve while still feeling part of one team.
+We bring together wrestlers from John Marshall, Huguenot, Richmond High School for the Arts, and Armstrong under one shared club. Coaches share the workload, athletes train alongside peers from across the city, and every RPS program grows stronger together.
 
