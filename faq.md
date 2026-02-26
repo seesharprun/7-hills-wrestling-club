@@ -2,6 +2,8 @@
 layout: pages.njk
 title: FAQ | Seven Hills Wrestling Club
 description: Common questions about joining Seven Hills Wrestling Club — cost, eligibility, schedule, what to bring, and how to sign up.
+templateEngineOverride: njk,md
+clubNumber: 2600126202
 ---
 
 ![Wrestling mat movement](/media/c-f-photography-D0RsXJB_0iM-unsplash.jpg)
@@ -42,4 +44,4 @@ Head to the [contact page](/contact/) and send us a message. We will share the n
 
 ## What is your USA Wrestling club number?
 
-Our USA Wrestling club number is **2600126202**. If you want to affiliate with Seven Hills Wrestling Club in your USA Wrestling profile, use this number.
+Our USA Wrestling club number is **{{ clubNumber }}**. If you want to affiliate with Seven Hills Wrestling Club in your USA Wrestling profile, use this number.
