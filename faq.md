@@ -40,3 +40,7 @@ Not at all. Our sessions are designed for every skill level. Coaches group instr
 
 Head to the [contact page](/contact/) and send us a message. We will share the next practice date and everything you need to get started.
 
+## What is your USA Wrestling club number?
+
+Our USA Wrestling club number is **2600126202**. If you want to affiliate with Seven Hills Wrestling Club in your USA Wrestling profile, use this number.
+
