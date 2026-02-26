@@ -10,7 +10,7 @@ description: Common questions about joining Seven Hills Wrestling Club — cost,
 
 ## How much does it cost?
 
-Nothing beyond a USA Wrestling card. There are no club dues, no gear fees, and no hidden costs. Our goal is to keep wrestling completely free for every RPS student.
+Nothing beyond a [USA Wrestling card](https://www.usawmembership.com/). There are no club dues, no gear fees, and no hidden costs. Our goal is to keep wrestling completely free for every RPS student.
 
 ## Who can join?
 
@@ -22,11 +22,15 @@ We meet once a month on a Thursday, rotating between John Marshall, Huguenot, Ri
 
 ## What should I bring?
 
-Athletic clothing, wrestling shoes if you have them (they are not required), a water bottle, and a willingness to learn. We will provide everything else.
+Athletic clothing, wrestling shoes, a water bottle, and a willingness to learn. Wrestling shoes are required, but if you do not have a pair, let a coach know — they may have a spare set available. Headgear and knee pads are optional.
 
 ## What does a typical session look like?
 
 Sessions focus on technique and drilling — stance, motion, takedowns, and mat work. We also run controlled live situations so athletes can apply what they learn. The emphasis is on development, not conditioning.
+
+## Do you compete in tournaments?
+
+Sometimes. We occasionally attend tournaments and competitions on our own or in partnership with other clubs, but it is neither frequent nor required. Coaches will let athletes know about upcoming opportunities and whether there is any additional cost involved.
 
 ## Do I need prior wrestling experience?
 
