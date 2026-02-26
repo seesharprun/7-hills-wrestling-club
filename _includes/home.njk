@@ -1,0 +1,40 @@
+---
+layout: pages.njk
+---
+
+<section class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] flex w-screen flex-col gap-0">
+  <section class="relative min-h-[350px] overflow-hidden border border-zinc-700/80 bg-zinc-900/40">
+    <img
+      src="{{ hero.image or '/media/chris-chow-TxxSLvOvfCk-unsplash.jpg' }}"
+      alt="Wrestling match"
+      class="absolute inset-0 h-full w-full object-cover"
+    />
+    <div class="absolute inset-0 bg-black/35"></div>
+    <div class="relative z-10">
+      <div class="flex min-h-[350px] items-center bg-zinc-950/58 px-4 py-3 backdrop-blur-[1px] sm:px-6 sm:py-4 md:px-8 md:py-5">
+        <div class="mx-auto grid w-full max-w-6xl grid-cols-12 grid-rows-3 items-center gap-x-4 gap-y-2">
+          <div class="col-start-1 col-span-3 row-start-1 row-span-2 m-0 grid place-items-center p-0">
+            <img src="{{ '/media/logo.svg' | url }}" alt="Seven Hills logo" class="h-32 w-auto invert" />
+          </div>
+          <p class="!m-0 col-start-4 col-span-9 row-start-1 text-left font-audiowide text-4xl font-bold leading-tight text-zinc-400">{{ hero.title or "Seven Hills Wrestling Club" }}</p>
+          <p class="col-start-4 col-span-9 row-start-2 text-left text-zinc-400">{{ hero.description or "A focused, local wrestling environment where athletes build fundamentals, toughness, and confidence through consistent training." }}</p>
+          <div class="col-start-1 col-span-12 row-start-3 flex w-full flex-wrap justify-center gap-3 pt-1">
+            {% set ctaButtons = buttons or [
+              { "text": "View Programs", "href": "/programs/" },
+              { "text": "Contact the Club", "href": "/contact/" }
+            ] %}
+            {% for button in ctaButtons %}
+            <a class="border-0 bg-zinc-400 px-4 py-2 text-sm font-audiowide font-semibold uppercase !text-zinc-950 !no-underline hover:!no-underline hover:bg-zinc-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200" href="{{ (button.href or '/') | url }}">{{ button.text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex flex-wrap gap-0 [&>*:first-child]:!mt-0 [&>p:has(img)]:!my-0 [&>p:has(img)]:order-2 [&>p:has(img)]:w-full md:[&>p:has(img)]:w-1/2 lg:[&>p:has(img)]:order-1 [&>p:has(img)+h1]:!mt-0 [&>h1+p:has(img)]:!mt-0 [&>p:has(img)>img]:block [&>p:has(img)>img]:h-[350px] [&>p:has(img)>img]:max-h-[350px] [&>p:has(img)>img]:w-full [&>p:has(img)>img]:object-cover [&>:not(p:has(img))]:order-1 [&>:not(p:has(img))]:w-full lg:[&>:not(p:has(img))]:order-2 [&_h1]:!mt-0 [&_h1]:!mb-0 [&_h1]:w-full [&_h1]:border-0 [&_h1]:bg-zinc-400 [&_h1]:px-8 md:[&_h1]:px-10 lg:[&_h1]:px-12 [&_h1]:py-2 [&_h1]:text-center [&_h1]:font-audiowide [&_h1]:text-xl md:[&_h1]:text-3xl [&_h1]:font-bold [&_h1]:uppercase [&_h1]:italic [&_h1]:leading-tight [&_h1]:text-zinc-950 [&_h2]:border-0 [&_h2]:bg-zinc-400 [&_h2]:px-8 md:[&_h2]:px-10 lg:[&_h2]:px-12 [&_h2]:py-3 [&_h2]:font-audiowide [&_h2]:uppercase [&_h2]:text-zinc-950 [&_p]:text-zinc-200 [&_p]:leading-8 [&>:not(p:has(img)):not(h1):not(h2)]:px-8 md:[&>:not(p:has(img)):not(h1):not(h2)]:px-10 lg:[&>:not(p:has(img)):not(h1):not(h2)]:px-12">
+      {{ content | safe }}
+    </div>
+  </section>
+</section>

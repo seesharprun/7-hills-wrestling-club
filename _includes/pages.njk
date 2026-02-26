@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+<main
+  class="mx-auto w-full max-w-6xl px-6 pb-6 pt-0 md:px-8 md:pb-7 md:pt-0 lg:px-10
+    [&_h1]:mt-10 [&_h1]:mb-5 [&_h1]:font-audiowide [&_h1]:text-4xl [&_h1]:font-bold [&_h1]:leading-tight [&_h1]:text-zinc-50
+    [&_h2]:mb-3 [&_h2]:mt-8 [&_h2]:font-audiowide [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:text-zinc-100
+    [&_h3]:mb-2 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-zinc-100
+    [&_p]:my-4 [&_p]:leading-7 [&_p]:text-zinc-300
+    [&_a]:text-zinc-100 [&_a]:underline [&_a]:underline-offset-4 [&_a:hover]:text-white
+    [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:text-zinc-300
+    [&_ol]:my-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:text-zinc-300
+    [&_li]:my-1
+    [&_blockquote]:my-6 [&_blockquote]:border-l-2 [&_blockquote]:border-zinc-600 [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-zinc-300
+    [&_hr]:my-8 [&_hr]:border-zinc-700
+    [&_code]:rounded [&_code]:bg-zinc-800/70 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:text-zinc-100
+    [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_table]:text-left [&_table]:text-sm
+    [&_thead]:bg-zinc-900/70
+    [&_th]:border [&_th]:border-zinc-600 [&_th]:px-3 [&_th]:py-2 [&_th]:font-semibold [&_th]:text-zinc-100
+    [&_td]:border [&_td]:border-zinc-700 [&_td]:px-3 [&_td]:py-2 [&_td]:text-zinc-300
+    {% if page.url != '/' %}[&_p:has(img)]:relative [&_p:has(img)]:left-1/2 [&_p:has(img)]:right-1/2 [&_p:has(img)]:-ml-[50vw] [&_p:has(img)]:-mr-[50vw] [&_p:has(img)]:w-screen [&_p:has(img)]:!my-0 [&_p:has(img)>img]:block [&_p:has(img)>img]:h-[350px] [&_p:has(img)>img]:max-h-[350px] [&_p:has(img)>img]:w-full [&_p:has(img)>img]:object-cover{% endif %}"
+>
+  {{ content | safe }}
+</main>

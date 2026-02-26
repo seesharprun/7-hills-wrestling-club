@@ -1,0 +1,156 @@
+---
+menu:
+  - label: Programs
+    href: /programs/
+  - label: About
+    href: /about/
+  - label: Contact
+    href: /contact/
+  - label: FAQ
+    href: /faq/
+socialLinks:
+  - name: Instagram
+    url: https://instagram.com
+    icon: instagram
+  - name: Facebook
+    url: https://facebook.com
+    icon: facebook
+  - name: YouTube
+    url: https://youtube.com
+    icon: youtube
+  - name: Email
+    url: mailto:info@sevenhillswrestlingclub.com
+    icon: mail
+tagline: Built on discipline
+credits:
+  photos:
+    - name: Chris Chow
+      url: https://unsplash.com/@chris_chow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    - name: C.F. Photography
+      url: https://unsplash.com/@fickesphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+  icons:
+    - name: Lucide
+      url: https://lucide.dev/
+  site:
+    - name: Eleventy
+      url: https://www.11ty.dev/
+  design:
+    - name: Tailwind CSS
+      url: https://tailwindcss.com/
+  source:
+    - name: GitHub
+      url: https://github.com/seesharprun/7-hills-wrestling-club
+---
+
+<!doctype html>
+<html lang="en" class="bg-zinc-950">
+  <head>
+    {% set pageTitle = title or "Seven Hills Wrestling Club" %}
+    {% set pageDescription = description or "Seven Hills Wrestling Club - disciplined training, strong community, and long-term athlete development." %}
+    {% set pageImage = ogImage or hero.image or "/media/logo.svg" %}
+    {% set pageUrl = page.url or "/" %}
+    {% set absolutePageUrl = "https://7hw.club" + pageUrl %}
+    {% set absoluteImageUrl = "https://7hw.club" + pageImage %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ pageTitle }}</title>
+    <meta name="description" content="{{ pageDescription }}" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="{{ absolutePageUrl }}" />
+    <meta property="og:site_name" content="Seven Hills Wrestling Club" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="{{ pageTitle }}" />
+    <meta property="og:description" content="{{ pageDescription }}" />
+    <meta property="og:type" content="{{ 'website' if pageUrl == '/' else 'article' }}" />
+    <meta property="og:url" content="{{ absolutePageUrl }}" />
+    <meta property="og:image" content="{{ absoluteImageUrl }}" />
+    <meta property="og:image:alt" content="Seven Hills Wrestling Club" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ pageTitle }}" />
+    <meta name="twitter:description" content="{{ pageDescription }}" />
+    <meta name="twitter:image" content="{{ absoluteImageUrl }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/media/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/media/favicon.svg" />
+    <link rel="shortcut icon" href="/media/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="7HWC" />
+    <link rel="manifest" href="/media/site.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-audiowide: "Audiowide", sans-serif;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+  </head>
+  <body class="min-h-screen bg-zinc-950 text-zinc-100 antialiased" style="font-family: 'Nunito Sans', sans-serif;">
+    <header class="border-b border-zinc-700/70 bg-zinc-950/95">
+      <nav class="mx-auto flex w-full max-w-6xl items-center justify-between px-3 py-3 md:px-4">
+        <a href="{{ '/' | url }}" class="flex items-center gap-3 text-zinc-100 no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300">
+          <span class="text-base font-semibold tracking-wide" style="font-family: 'Audiowide', sans-serif;">Seven Hills Wrestling Club</span>
+        </a>
+        <div class="flex items-center gap-4 text-sm text-zinc-300">
+          {% for item in menu %}
+          <a class="text-zinc-200 no-underline hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300" href="{{ item.href | url }}">{{ item.label }}</a>
+          {% endfor %}
+        </div>
+      </nav>
+    </header>
+
+    {{ content | safe }}
+
+    <footer class="mt-8 border-t border-zinc-700/70 px-3 py-5 md:px-4">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between gap-3">
+        <div class="flex items-center gap-3 text-sm text-zinc-300">
+          {% for social in socialLinks %}
+          <a
+            class="inline-flex h-9 w-9 items-center justify-center text-zinc-200 no-underline hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300"
+            href="{{ social.url }}"
+            {% if social.url.slice(0, 4) == 'http' %}target="_blank" rel="noreferrer"{% endif %}
+            aria-label="{{ social.name }}"
+            title="{{ social.name }}"
+          >
+            <i data-lucide="{{ social.icon }}" class="h-4 w-4" aria-hidden="true"></i>
+            <span class="sr-only">{{ social.name }}</span>
+          </a>
+          {% endfor %}
+        </div>
+
+        <div class="text-right md:text-center">
+          <img src="{{ '/media/name.svg' | url }}" alt="Seven Hills Wrestling Club" class="ml-auto h-7 w-auto invert md:mx-auto" />
+          <div class="mt-1 text-[10px] font-normal uppercase tracking-[0.16em] text-zinc-500">{{ tagline }}</div>
+        </div>
+      </div>
+
+      <div class="mx-auto mt-4 w-full max-w-6xl border-t border-zinc-800/80 pt-3">
+        <div class="flex flex-col items-center gap-2 text-center text-[11px] text-zinc-400 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
+          <div class="flex flex-wrap items-center justify-center text-zinc-400">
+            <span class="uppercase tracking-[0.18em] text-zinc-500">Photos</span>&nbsp;
+            {% for item in credits.photos %}<a class="text-zinc-300 underline underline-offset-2 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300" href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.name }}</a>{% if not loop.last %},&nbsp;{% endif %}{% endfor %}
+          </div>
+
+          <hr class="my-1 w-full border-zinc-800/80 sm:hidden" />
+          <span class="hidden text-zinc-600 sm:inline">|</span>
+
+          <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-zinc-400">
+            {% for sectionName in ["icons", "site", "design", "source"] %}
+            <span>
+              <span class="uppercase tracking-[0.14em] text-zinc-500">{{ sectionName }}</span>&nbsp;{% for item in credits[sectionName] %}<a class="text-zinc-300 underline underline-offset-2 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300" href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.name }}</a>{% if not loop.last %},&nbsp;{% endif %}{% endfor %}
+            </span>{% if not loop.last %}<span class="text-zinc-600">|</span>{% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    </script>
+  </body>
+</html>
