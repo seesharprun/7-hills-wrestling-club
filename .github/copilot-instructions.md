@@ -45,7 +45,6 @@ This repository contains the website content for Seven Hills Wrestling Club, a s
 
 - Use the **Oxford comma** (serial comma) in a list of three or more items: "stance, movement, and takedowns."
 - Use one space after a period, not two.
-- Use an em dash (—) to set off a phrase or add emphasis. Do not use two hyphens (--) as a substitute.
 
 ## Links
 
@@ -69,5 +68,4 @@ This repository contains the website content for Seven Hills Wrestling Club, a s
 
 - Use `#` for the page title (one per page), `##` for section headings, and `###` for sub-section headings.
 - Use hyphens (`-`) for unordered list items.
-- Wrap inline code and technical values in backticks.
 - Do not add trailing spaces or extra blank lines between sections.
