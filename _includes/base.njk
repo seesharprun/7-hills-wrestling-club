@@ -25,6 +25,7 @@ socialLinks:
     url: mailto:team@7hw.club
     icon: mail
 tagline: Built on discipline
+clubNumber: 2600126202
 credits:
   photos:
     - name: Chris Chow
@@ -109,7 +110,7 @@ credits:
 
     <footer class="mt-8 border-t border-zinc-700/70 px-3 py-5 md:px-4">
       <div class="mx-auto flex w-full max-w-6xl items-center justify-between gap-3">
-        <div class="flex items-center gap-3 text-sm text-zinc-300">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-zinc-300">
           {% for social in socialLinks %}
           <a
             class="inline-flex h-9 w-9 items-center justify-center text-zinc-200 no-underline hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300"
@@ -122,6 +123,7 @@ credits:
             <span class="sr-only">{{ social.name }}</span>
           </a>
           {% endfor %}
+          <span class="text-xs text-zinc-400">USA Wrestling Club: {{ clubNumber }}</span>
         </div>
 
         <div class="text-right md:text-center">
