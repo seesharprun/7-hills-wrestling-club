@@ -19,7 +19,7 @@ layout: base.njk
     [&_thead]:bg-zinc-900/70
     [&_th]:border [&_th]:border-zinc-600 [&_th]:px-3 [&_th]:py-2 [&_th]:font-semibold [&_th]:text-zinc-100
     [&_td]:border [&_td]:border-zinc-700 [&_td]:px-3 [&_td]:py-2 [&_td]:text-zinc-300
-    {% if page.url != '/' %}[&_p:has(img)]:relative [&_p:has(img)]:left-1/2 [&_p:has(img)]:right-1/2 [&_p:has(img)]:-ml-[50vw] [&_p:has(img)]:-mr-[50vw] [&_p:has(img)]:w-screen [&_p:has(img)]:!my-0 [&_p:has(img)>img]:block [&_p:has(img)>img]:h-[350px] [&_p:has(img)>img]:max-h-[350px] [&_p:has(img)>img]:w-full [&_p:has(img)>img]:object-cover{% endif %}"
+    {% if page.url != '/' %}[&_p:first-child:has(img)]:relative [&_p:first-child:has(img)]:left-1/2 [&_p:first-child:has(img)]:right-1/2 [&_p:first-child:has(img)]:-ml-[50vw] [&_p:first-child:has(img)]:-mr-[50vw] [&_p:first-child:has(img)]:w-screen [&_p:first-child:has(img)]:!my-0 [&_p:first-child:has(img)>img]:block [&_p:first-child:has(img)>img]:h-[350px] [&_p:first-child:has(img)>img]:max-h-[350px] [&_p:first-child:has(img)>img]:w-full [&_p:first-child:has(img)>img]:object-cover{% endif %}"
 >
   {{ content | safe }}
 </main>
