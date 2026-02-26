@@ -1,26 +1,31 @@
 ---
 layout: pages.njk
 title: About | Seven Hills Wrestling Club
-description: Learn about Seven Hills Wrestling Club, our values, coaching approach, and mission to build disciplined, confident athletes.
+description: Seven Hills Wrestling Club is a free, city-wide wrestling program for Richmond Public Schools students focused on development, inclusion, and shared resources.
 ---
 
 ![Wrestling tournament action](/media/c-f-photography-21KJz9GN940-unsplash.jpg)
 
 # About
 
-Seven Hills Wrestling Club exists to help athletes grow on and off the mat through disciplined training and a supportive team culture.
+Seven Hills Wrestling Club is a shared USA Wrestling club built for every current Richmond Public Schools student. Our purpose is simple: make wrestling accessible, reduce the burden on individual schools, and help every RPS wrestling program grow.
+
+## Why We Exist
+
+Many RPS schools have small wrestling programs with limited resources. By combining into one city-wide club, we share coaching responsibilities, training space, and competition opportunities so no single school carries the full load. The result is a stronger foundation for every wrestler in the district.
 
 ## What We Value
-- Consistency
-- Respect
-- Accountability
-- Long-term development
 
-## Coaching Approach
+- **Accessibility** — Free for all RPS students; the only cost is a USA Wrestling card
+- **Development** — Focused on building skills, not burning athletes out
+- **Inclusion** — Open to every experience level, background, and school in the district
+- **Collaboration** — Coaches, volunteers, and families working together across schools
 
-We keep instruction practical and clear: fundamentals first, then layered progression based on athlete readiness.
+## Our Approach
 
-## Mission
+We meet once a month on a rotating Thursday schedule hosted at a different RPS high school each week. Sessions prioritize technique, drilling, and match awareness over conditioning. Every athlete gets meaningful mat time in a supportive environment where questions are welcome and growth is the goal.
 
-Build confident wrestlers who carry discipline into competition, school, and life.
+## Our Mission
+
+Lower every barrier to wrestling for Richmond Public Schools students and build a program that every school, family, and athlete in the city can be proud of.
 
