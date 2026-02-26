@@ -28,4 +28,3 @@ We meet once a month on a rotating Thursday schedule hosted at a different Richm
 ## Our Mission
 
 Lower every barrier to wrestling for Richmond Public Schools students and build a program that every school, family, and athlete in the city can be proud of.
-
