@@ -39,4 +39,3 @@ Not at all. Our sessions are designed for every skill level. Coaches group instr
 ## How do I sign up?
 
 Head to the [contact page](/contact/) and send us a message. We will share the next practice date and everything you need to get started.
-
