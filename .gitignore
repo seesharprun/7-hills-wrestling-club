@@ -3,3 +3,6 @@ node_modules/
 
 # Ignore generated site output
 _site/
+
+# Ignore package lock
+package-lock.json
