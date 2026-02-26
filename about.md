@@ -33,4 +33,4 @@ Lower every barrier to wrestling for Richmond Public Schools students and build 
 
 Our coaches and our club are proud members of [Black Wrestling Association](https://blackwrestlingassociation.org/). This partnership supports our commitment to access, representation, and opportunities for every wrestler in Richmond Public Schools.
 
-![Black Wrestling Association logo](/media/black-wrestling-association.png)
+![Black Wrestling Association logo](/media/black-wrestling-association.svg)
