@@ -12,8 +12,8 @@ Whether you are a student ready to start wrestling, a parent with questions, or 
 
 - Email: [team@7hw.club](mailto:team@7hw.club)
 - Instagram: [@7hw.club](https://instagram.com/7hw.club)
-- Facebook: [Seven Hills Wrestling Club](https://facebook.com/7hw.club)
-- YouTube: [Seven Hills Wrestling Club](https://youtube.com/@7hwc)
+- Facebook: [@7hw.club](https://facebook.com/7hw.club)
+- YouTube: [@7hwc](https://youtube.com/@7hwc)
 
 Reach out by email or social media and we will share the next practice date, location, and everything you need to get on the mat.
 
