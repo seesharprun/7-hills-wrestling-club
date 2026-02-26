@@ -13,23 +13,23 @@ buttons:
     href: /contact/
 ---
 
-# Wrestling for Every RPS Student
+# Built on Discipline
 
 ![Wrestling match in progress](/media/c-f-photography-D100o5TDCys-unsplash.jpg)
 
 ![Wrestling mat detail](/media/chris-chow-DCqXIFXoqr0-unsplash.jpg)
 
-Seven Hills Wrestling Club is open to every current Richmond Public Schools student at no cost. All you need is a USA Wrestling card. We practice once a month on a rotating schedule across four RPS high schools, so the commitment stays manageable for families and coaches alike.
+Seven Hills Wrestling Club is open to every current Richmond Public Schools student at no cost. All you need is a USA Wrestling card. We practice once a month on a rotating schedule across four Richmond high schools, so the commitment stays manageable for families and coaches alike.
 
 ## Development First
 
 Our program focuses on building skills, not grinding athletes down. Each session centers on technique, movement, and match awareness so every wrestler improves at their own pace — whether they are brand new or have years of experience.
 
-## Free for All RPS Students
+## Free for All Richmond Public Schools (RPS) Students
 
 There are no club dues, no gear fees, and no hidden costs. The only requirement is a USA Wrestling membership card, which provides insurance coverage for every participant. Our goal is to remove every barrier so any student who wants to wrestle can wrestle.
 
 ## A City-Wide Team
 
-We bring together wrestlers from John Marshall, Huguenot, Richmond High School for the Arts, and Armstrong under one shared club. Coaches share the workload, athletes train alongside peers from across the city, and every RPS program grows stronger together.
+We bring together wrestlers from John Marshall, Huguenot, Richmond High School for the Arts, and Armstrong under one shared club. Coaches share the workload, athletes train alongside peers from across the city, and every Richmond program grows stronger together.
 

@@ -8,22 +8,22 @@ description: Seven Hills Wrestling Club is a free, city-wide wrestling program f
 
 # About
 
-Seven Hills Wrestling Club is a shared USA Wrestling club built for every current Richmond Public Schools student. Our purpose is simple: make wrestling accessible, reduce the burden on individual schools, and help every RPS wrestling program grow.
+Seven Hills Wrestling Club is a shared USA Wrestling club built for every current Richmond Public Schools student. Our purpose is simple: make wrestling accessible, reduce the burden on individual schools, and help every Richmond wrestling program grow.
 
 ## Why We Exist
 
-Many RPS schools have small wrestling programs with limited resources. By combining into one city-wide club, we share coaching responsibilities, training space, and competition opportunities so no single school carries the full load. The result is a stronger foundation for every wrestler in the district.
+Many Richmond schools have small wrestling programs with limited resources. By combining into one city-wide club, we share coaching responsibilities, training space, and competition opportunities so no single school carries the full load. The result is a stronger foundation for every wrestler in the district.
 
 ## What We Value
 
-- **Accessibility** — Free for all RPS students; the only cost is a USA Wrestling card
+- **Accessibility** — Free for all Richmond Public Schools (RPS) students; the only cost is a USA Wrestling card
 - **Development** — Focused on building skills, not burning athletes out
 - **Inclusion** — Open to every experience level, background, and school in the district
 - **Collaboration** — Coaches, volunteers, and families working together across schools
 
 ## Our Approach
 
-We meet once a month on a rotating Thursday schedule hosted at a different RPS high school each week. Sessions prioritize technique, drilling, and match awareness over conditioning. Every athlete gets meaningful mat time in a supportive environment where questions are welcome and growth is the goal.
+We meet once a month on a rotating Thursday schedule hosted at a different Richmond high school each week. Sessions prioritize technique, drilling, and match awareness over conditioning. Every athlete gets meaningful mat time in a supportive environment where questions are welcome and growth is the goal.
 
 ## Our Mission
 
