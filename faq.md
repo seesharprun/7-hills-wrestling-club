@@ -3,7 +3,7 @@ layout: pages.njk
 title: FAQ | Seven Hills Wrestling Club
 description: Common questions about joining Seven Hills Wrestling Club — cost, eligibility, schedule, what to bring, and how to sign up.
 templateEngineOverride: njk,md
-clubNumber: "2600126202"
+clubNumber: 2600126202
 ---
 
 ![Wrestling mat movement](/media/c-f-photography-D0RsXJB_0iM-unsplash.jpg)
