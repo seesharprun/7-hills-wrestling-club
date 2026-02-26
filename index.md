@@ -32,4 +32,3 @@ There are no club dues, no gear fees, and no hidden costs. The only requirement 
 ## A City-Wide Team
 
 We bring together wrestlers from John Marshall, Huguenot, Richmond High School for the Arts, and Armstrong under one shared club. Coaches share the workload, athletes train alongside peers from across the city, and every Richmond program grows stronger together.
-

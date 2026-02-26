@@ -17,4 +17,3 @@ Whether you are a student ready to start wrestling, a parent with questions, or 
 - X/Twitter: [@7hw_club](https://x.com/7hw_club)
 
 Reach out by email or social media and we will share the next practice date, location, and everything you need to get on the mat.
-

@@ -28,4 +28,3 @@ Sessions focus on technique, drilling, and live situations — not conditioning.
 ## Live Schedule
 
 Coming soon. For the latest dates and details, reach out through the [contact page](/contact/).
-
