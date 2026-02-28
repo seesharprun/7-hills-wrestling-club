@@ -4,7 +4,7 @@ title: Contact | Seven Hills Wrestling Club
 description: Get in touch with Seven Hills Wrestling Club to learn more, sign up your student, or get involved as a coach or volunteer.
 ---
 
-![Wrestling meet atmosphere](/media/spikeimage-02.jpg)
+![Wrestler in a ready stance on the edge of the mat, focused on the opponent as coaches and teammates watch from the sideline.](/media/spikeimage-02.jpg)
 
 # Contact
 
