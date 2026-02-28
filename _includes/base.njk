@@ -1,4 +1,6 @@
 ---
+og:
+  image: /media/social-share.png
 menu:
   - label: Programs
     href: /programs/
@@ -29,7 +31,7 @@ clubNumber: 2600126202
 credits:
   photos:
     - name: spikeimage
-      url: https://www.instagram.com/spikeimage
+      url: https://www.instagram.com/spiIkeimage
       icon: instagram
   icons:
     - name: Lucide
@@ -50,7 +52,7 @@ credits:
   <head>
     {% set pageTitle = title or "Seven Hills Wrestling Club" %}
     {% set pageDescription = description or "Seven Hills Wrestling Club - disciplined training, strong community, and long-term athlete development." %}
-    {% set pageImage = ogImage or hero.image or "/media/logo.svg" %}
+    {% set pageImage = og.image %}
     {% set pageUrl = page.url or "/" %}
     {% set absolutePageUrl = "https://7hw.club" + pageUrl %}
     {% set absoluteImageUrl = "https://7hw.club" + pageImage %}
