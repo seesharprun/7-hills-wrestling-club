@@ -28,10 +28,9 @@ tagline: Built on discipline
 clubNumber: 2600126202
 credits:
   photos:
-    - name: Chris Chow
-      url: https://unsplash.com/@chris_chow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-    - name: C.F. Photography
-      url: https://unsplash.com/@fickesphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    - name: spikeimage
+      url: https://www.instagram.com/spikeimage
+      icon: instagram
   icons:
     - name: Lucide
       url: https://lucide.dev/
@@ -136,7 +135,12 @@ credits:
         <div class="flex flex-col items-center gap-2 text-center text-[11px] text-zinc-400 sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
           <div class="flex flex-wrap items-center justify-center text-zinc-400">
             <span class="uppercase tracking-[0.18em] text-zinc-500">Photos</span>&nbsp;
-            {% for item in credits.photos %}<a class="text-zinc-300 underline underline-offset-2 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300" href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.name }}</a>{% if not loop.last %},&nbsp;{% endif %}{% endfor %}
+            {% for item in credits.photos %}
+            <span class="inline-flex items-center gap-1 align-middle">
+              {% if item.icon %}<i data-lucide="{{ item.icon }}" class="h-3.5 w-3.5 text-zinc-300" aria-hidden="true"></i>{% endif %}
+              <a class="text-zinc-300 underline underline-offset-2 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-300" href="{{ item.url }}" target="_blank" rel="noreferrer">{{ item.name }}</a>
+            </span>{% if not loop.last %},&nbsp;{% endif %}
+            {% endfor %}
           </div>
 
           <hr class="my-1 w-full border-zinc-800/80 sm:hidden" />
