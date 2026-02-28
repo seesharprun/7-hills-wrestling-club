@@ -5,7 +5,7 @@ description: Common questions about joining Seven Hills Wrestling Club — cost,
 clubNumber: 2600126202
 ---
 
-![Wrestling mat movement](/media/c-f-photography-D0RsXJB_0iM-unsplash.jpg)
+![Two wrestlers battle on the mat near the edge, legs tangled as one tries to improve position during a close scramble.](/media/spikeimage-04.jpg)
 
 # FAQ
 

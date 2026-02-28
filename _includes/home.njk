@@ -5,9 +5,9 @@ layout: pages.njk
 <section class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] flex w-screen flex-col gap-0">
   <section class="relative min-h-[350px] overflow-hidden border border-zinc-700/80 bg-zinc-900/40">
     <img
-      src="{{ hero.image or '/media/chris-chow-TxxSLvOvfCk-unsplash.jpg' }}"
-      alt="Wrestling match"
-      class="absolute inset-0 h-full w-full object-cover"
+      src="{{ hero.image or ('/media/placeholder.png' | url) }}"
+      alt="{{ hero.alt if hero.image else 'Blank banner image.' }}"
+      class="absolute inset-0 h-full w-full object-cover filter grayscale contrast-110 brightness-95 saturate-75"
     />
     <div class="absolute inset-0 bg-black/35"></div>
     <div class="relative z-10">
@@ -33,7 +33,7 @@ layout: pages.njk
   </section>
 
   <section>
-    <div class="flex flex-wrap gap-0 [&>*:first-child]:!mt-0 [&>p:has(img)]:!my-0 [&>p:has(img)]:order-2 [&>p:has(img)]:w-full md:[&>p:has(img)]:w-1/2 lg:[&>p:has(img)]:order-1 [&>p:has(img)+h1]:!mt-0 [&>h1+p:has(img)]:!mt-0 [&>p:has(img)>img]:block [&>p:has(img)>img]:h-[350px] [&>p:has(img)>img]:max-h-[350px] [&>p:has(img)>img]:w-full [&>p:has(img)>img]:object-cover [&>:not(p:has(img))]:order-1 [&>:not(p:has(img))]:w-full lg:[&>:not(p:has(img))]:order-2 [&_h1]:!mt-0 [&_h1]:!mb-0 [&_h1]:w-full [&_h1]:border-0 [&_h1]:bg-zinc-400 [&_h1]:px-8 md:[&_h1]:px-10 lg:[&_h1]:px-12 [&_h1]:py-2 [&_h1]:text-center [&_h1]:font-audiowide [&_h1]:text-xl md:[&_h1]:text-3xl [&_h1]:font-bold [&_h1]:uppercase [&_h1]:italic [&_h1]:leading-tight [&_h1]:text-zinc-950 [&_h2]:border-0 [&_h2]:bg-zinc-400 [&_h2]:px-8 md:[&_h2]:px-10 lg:[&_h2]:px-12 [&_h2]:py-3 [&_h2]:font-audiowide [&_h2]:uppercase [&_h2]:text-zinc-950 [&_p]:text-zinc-200 [&_p]:leading-8 [&>:not(p:has(img)):not(h1):not(h2)]:px-8 md:[&>:not(p:has(img)):not(h1):not(h2)]:px-10 lg:[&>:not(p:has(img)):not(h1):not(h2)]:px-12">
+    <div class="flex flex-wrap gap-0 [&>*:first-child]:!mt-0 [&>p:has(img)]:!my-0 [&>p:has(img)]:order-2 [&>p:has(img)]:w-full md:[&>p:has(img)]:w-1/2 lg:[&>p:has(img)]:order-1 [&>p:has(img)+h1]:!mt-0 [&>h1+p:has(img)]:!mt-0 [&>p:has(img)>img]:block [&>p:has(img)>img]:h-[350px] [&>p:has(img)>img]:max-h-[350px] [&>p:has(img)>img]:w-full [&>p:has(img)>img]:object-cover [&>p:has(img)>img]:filter [&>p:has(img)>img]:grayscale [&>p:has(img)>img]:contrast-110 [&>p:has(img)>img]:brightness-95 [&>p:has(img)>img]:saturate-75 [&>:not(p:has(img))]:order-1 [&>:not(p:has(img))]:w-full lg:[&>:not(p:has(img))]:order-2 [&_h1]:!mt-0 [&_h1]:!mb-0 [&_h1]:w-full [&_h1]:border-0 [&_h1]:bg-zinc-400 [&_h1]:px-8 md:[&_h1]:px-10 lg:[&_h1]:px-12 [&_h1]:py-2 [&_h1]:text-center [&_h1]:font-audiowide [&_h1]:text-xl md:[&_h1]:text-3xl [&_h1]:font-bold [&_h1]:uppercase [&_h1]:italic [&_h1]:leading-tight [&_h1]:text-zinc-950 [&_h2]:border-0 [&_h2]:bg-zinc-400 [&_h2]:px-8 md:[&_h2]:px-10 lg:[&_h2]:px-12 [&_h2]:py-3 [&_h2]:font-audiowide [&_h2]:uppercase [&_h2]:text-zinc-950 [&_p]:text-zinc-200 [&_p]:leading-8 [&>:not(p:has(img)):not(h1):not(h2)]:px-8 md:[&>:not(p:has(img)):not(h1):not(h2)]:px-10 lg:[&>:not(p:has(img)):not(h1):not(h2)]:px-12">
       {{ content | safe }}
     </div>
   </section>
