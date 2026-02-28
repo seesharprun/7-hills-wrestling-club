@@ -5,7 +5,7 @@ description: Seven Hills Wrestling Club offers disciplined wrestling training, s
 hero:
   title: Seven Hills Wrestling Club
   description: A focused, local wrestling environment where athletes build fundamentals, toughness, and confidence through consistent training.
-  image: /media/chris-chow-TxxSLvOvfCk-unsplash.jpg
+  image: /media/cspikeimage-07.jpg
 buttons:
   - text: View Programs
     href: /programs/
@@ -15,9 +15,9 @@ buttons:
 
 # Built on Discipline...
 
-![Wrestling match in progress](/media/c-f-photography-D100o5TDCys-unsplash.jpg)
+![Wrestling match in progress](/media/spikeimage-03.jpg)
 
-![Wrestling mat detail](/media/chris-chow-DCqXIFXoqr0-unsplash.jpg)
+![Wrestling mat detail](/media/spikeimage-06.jpg)
 
 We focus on the following three core areas:
 

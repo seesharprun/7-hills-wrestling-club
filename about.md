@@ -4,7 +4,7 @@ title: About | Seven Hills Wrestling Club
 description: Learn about Seven Hills Wrestling Club, our values, coaching approach, and mission to build disciplined, confident athletes.
 ---
 
-![Wrestling tournament action](/media/c-f-photography-21KJz9GN940-unsplash.jpg)
+![Wrestling tournament action](/media/spikeimage-01.jpg)
 
 # About
 

@@ -4,7 +4,7 @@ title: Contact | Seven Hills Wrestling Club
 description: Contact Seven Hills Wrestling Club for program fit, training details, and next steps to get started.
 ---
 
-![Wrestling meet atmosphere](/media/chris-chow-1pUWPMFo6VE-unsplash.jpg)
+![Wrestling meet atmosphere](/media/spikeimage-02.jpg)
 
 # Contact
 

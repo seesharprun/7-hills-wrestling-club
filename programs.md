@@ -4,7 +4,7 @@ title: Programs | Seven Hills Wrestling Club
 description: Explore youth, middle and high school, and supplemental wrestling programs focused on consistent, purposeful development.
 ---
 
-![Wrestling training session](/media/c-f-photography-cXvIdC9zyFI-unsplash.jpg)
+![Wrestling training session](/media/spikeimage-05.jpg)
 
 # Programs
 

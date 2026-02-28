@@ -4,7 +4,7 @@ title: FAQ | Seven Hills Wrestling Club
 description: Read common questions about training level, what to bring, session frequency, and how to get started at Seven Hills Wrestling Club.
 ---
 
-![Wrestling mat movement](/media/c-f-photography-D0RsXJB_0iM-unsplash.jpg)
+![Wrestling mat movement](/media/spikeimage-04.jpg)
 
 # FAQ
 
