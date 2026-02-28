@@ -1,29 +1,30 @@
 ---
 layout: pages.njk
 title: Programs | Seven Hills Wrestling Club
-description: Explore youth, middle and high school, and supplemental wrestling programs focused on consistent, purposeful development.
+description: Monthly rotating practices and development-focused training — all free for Richmond Public Schools wrestlers.
 ---
 
 ![Wrestling training session](/media/spikeimage-05.jpg)
 
 # Programs
 
-Our programs stay simple and structured: show up, train with purpose, and improve each week.
+Everything we do is free for current Richmond Public Schools students. The only requirement is a USA Wrestling card for insurance.
 
-## Youth Foundations
-- Intro-level movement and stance discipline
-- Core takedown and defense patterns
-- Weekly consistency over volume
+## Monthly Rotating Practices
 
-## Middle & High School Development
-- Technique chains and situational sparring
-- Match pace conditioning and mat awareness
-- Focused preparation for in-season success
+We practice once a month on Thursdays, rotating across four Richmond Public Schools (RPS) high schools. Each head coach hosts one session per month, keeping the commitment manageable while giving athletes exposure to different coaching styles and training partners.
 
-## Open Mat / Supplemental Work
-- Guided drilling blocks
-- Controlled live rounds
-- Optional film and feedback sessions
+The schedule below is tentative — the final rotation is being finalized.
 
-For current schedule and availability, contact the club directly.
+| Week | Host School |
+| --- | --- |
+| 1st Thursday | John Marshall High School |
+| 2nd Thursday | Huguenot High School |
+| 3rd Thursday | Richmond High School for the Arts |
+| 4th Thursday | Armstrong High School |
 
+Sessions focus on technique, drilling, and live situations — not conditioning. Every experience level is welcome.
+
+## Live Schedule
+
+Coming soon. For the latest dates and details, reach out through the [contact page](/contact/).
