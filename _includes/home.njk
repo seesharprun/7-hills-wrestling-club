@@ -5,8 +5,8 @@ layout: pages.njk
 <section class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] flex w-screen flex-col gap-0">
   <section class="relative min-h-[350px] overflow-hidden border border-zinc-700/80 bg-zinc-900/40">
     <img
-      src="{{ hero.image or 'https://placeholdit.com/1600x600?text=Seven+Hills+Wrestling+Club' }}"
-      alt="{{ hero.alt or 'Placeholder banner with text reading Seven Hills Wrestling Club displayed when no hero image is provided.' }}"
+      src="{{ hero.image or ('/media/placeholder.png' | url) }}"
+      alt="{{ hero.alt if hero.image else '' }}"
       class="absolute inset-0 h-full w-full object-cover filter grayscale contrast-110 brightness-95 saturate-75"
     />
     <div class="absolute inset-0 bg-black/35"></div>
