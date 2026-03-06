@@ -14,7 +14,7 @@ buttons:
     href: /contact/
 ---
 
-# Built on Discipline
+# Earned every day
 
 ![Referee points to the start spot as two wrestlers crouch at center circle before the match begins in a crowded gym.](/media/spikeimage-03.jpg)
 
