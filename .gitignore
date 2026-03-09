@@ -3,6 +3,8 @@ node_modules/
 
 # Dev Node.js packages
 package.json
+
+# Dev Node.js package lock file
 package-lock.json
 
 # Ignore generated site output
