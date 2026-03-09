@@ -1,5 +1,9 @@
 # Ignore node modules
 node_modules/
 
+# Dev Node.js packages
+package.json
+package-lock.json
+
 # Ignore generated site output
 _site/
