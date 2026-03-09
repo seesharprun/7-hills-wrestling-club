@@ -23,3 +23,5 @@ Use this form to register for Seven Hills Wrestling Club.
 	referrerpolicy="strict-origin-when-cross-origin"
 	sandbox="allow-forms allow-same-origin allow-scripts allow-popups"
 ></iframe>
+
+If the form doesn't load, [open the registration form directly](https://forms.office.com/Pages/ResponsePage.aspx?id=tZ0xPtpjl0yQRWg8Sc6ngbbJfAUhzjZAhUMWEae0x-VURTFCSU5TQjdFV0MwQ0VJTzc1SUJQUzVPSi4u).
