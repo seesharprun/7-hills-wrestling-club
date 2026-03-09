@@ -22,14 +22,12 @@ layout: base.njk
     {% if page.url != '/' %}[&_p:first-child:has(img)]:relative [&_p:first-child:has(img)]:left-1/2 [&_p:first-child:has(img)]:right-1/2 [&_p:first-child:has(img)]:-ml-[50vw] [&_p:first-child:has(img)]:-mr-[50vw] [&_p:first-child:has(img)]:w-screen [&_p:first-child:has(img)]:!my-0 [&_p:first-child:has(img)>img]:block [&_p:first-child:has(img)>img]:h-[clamp(140px,20vh,190px)] sm:[&_p:first-child:has(img)>img]:h-[clamp(160px,24vh,220px)] md:[&_p:first-child:has(img)>img]:h-[350px] [&_p:first-child:has(img)>img]:w-full [&_p:first-child:has(img)>img]:object-cover [&_p:first-child:has(img)>img]:object-[center_28%] md:[&_p:first-child:has(img)>img]:object-center [&_p:first-child:has(img)>img]:filter [&_p:first-child:has(img)>img]:grayscale [&_p:first-child:has(img)>img]:contrast-110 [&_p:first-child:has(img)>img]:brightness-95 [&_p:first-child:has(img)>img]:saturate-75 [&_p:first-child:has(img)>img]:blur-[1px] md:[&_p:first-child:has(img)>img]:blur-[2px]{% endif %}"
 >
   {{ content | safe }}
-  {% set registerCtaConfig = registerCta or {} %}
-  {% set registerCtaShow = page.url != '/register/' and registerCtaConfig.show != false %}
-  {% if registerCtaShow %}
+  {% if not options.hideRegistration %}
     <div class="w-full px-8 pb-8 pt-3 text-center md:px-10 lg:px-12">
       <a
         class="inline-block border-0 bg-zinc-400 px-4 py-2 text-sm font-audiowide font-semibold uppercase !text-zinc-950 !no-underline hover:!no-underline hover:bg-zinc-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-200"
-        href="{{ (registerCtaConfig.href or '/register/') | url }}"
-      >{{ registerCtaConfig.text or 'Register now' }}</a>
+        href="{{ '/register/' | url }}"
+      >Register now</a>
     </div>
   {% endif %}
 </main>
