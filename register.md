@@ -1,0 +1,23 @@
+---
+layout: pages.njk
+title: Register | Seven Hills Wrestling Club
+description: Register for Seven Hills Wrestling Club using the online sign-up form.
+---
+
+# Register
+
+Use this form to register for Seven Hills Wrestling Club.
+
+<iframe
+	width="100%"
+	height="3500"
+	src="https://forms.office.com/Pages/ResponsePage.aspx?id=tZ0xPtpjl0yQRWg8Sc6ngbbJfAUhzjZAhUMWEae0x-VURTFCSU5TQjdFV0MwQ0VJTzc1SUJQUzVPSi4u&embed=true"
+	frameborder="0"
+	marginwidth="0"
+	marginheight="0"
+	style="display:block; border:none; width:100%; height:3500px;"
+	allowfullscreen
+	webkitallowfullscreen
+	mozallowfullscreen
+	msallowfullscreen
+></iframe>
