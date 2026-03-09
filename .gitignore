@@ -1,6 +1,5 @@
 # Ignore node modules
 node_modules/
-package-lock.json
 
 # Ignore generated site output
 _site/
