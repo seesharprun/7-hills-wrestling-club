@@ -10,6 +10,8 @@ hero:
 buttons:
   - text: View Programs
     href: /programs/
+  - text: Register
+    href: /register/
   - text: Contact the Club
     href: /contact/
 ---

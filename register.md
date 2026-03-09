@@ -2,6 +2,8 @@
 layout: pages.njk
 title: Register | Seven Hills Wrestling Club
 description: Register for Seven Hills Wrestling Club using the online sign-up form.
+options:
+  hideRegistration: true
 ---
 
 # Register
