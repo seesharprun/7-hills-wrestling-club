@@ -23,6 +23,8 @@ We practice once a month on Thursdays, rotating across four Richmond Public Scho
 
 Sessions focus on technique, drilling, and live situations — not conditioning. Every experience level is welcome.
 
-## Live Schedule
+## Live schedule
 
-Coming soon. For the latest dates and details, reach out through the [contact page](/contact/).
+View the latest dates on the [practice schedule page](/schedule/).
+
+For updates or questions, reach out through the [contact page](/contact/).
