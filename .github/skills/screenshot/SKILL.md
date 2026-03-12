@@ -27,7 +27,7 @@ To run the site and take a screenshot, follow these steps:
 4. Take a screenshot of the home page:
 
    ```bash
-   npx playwright screenshot --browser=chromium http://localhost:8080 screenshot.png
+   npx --yes playwright screenshot --browser=chromium http://localhost:8080 screenshot.png
    ```
 
    To capture additional pages, repeat step 4 with a different URL path and output filename.
