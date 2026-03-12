@@ -5,11 +5,12 @@ description: Run the Eleventy site locally and take a screenshot using Playwrigh
 
 To run the site and take a screenshot, follow these steps:
 
-1. Start the Eleventy development server in the background and save its PID:
+1. Start the Eleventy development server in the background, save its PID, and register a cleanup trap so it stops automatically on exit or error:
 
    ```bash
    npx --yes @11ty/eleventy --serve &
    SERVER_PID=$!
+   trap 'kill $SERVER_PID 2>/dev/null' EXIT
    ```
 
 2. Wait for the server to be ready on `http://localhost:8080`:
@@ -32,10 +33,4 @@ To run the site and take a screenshot, follow these steps:
 
    To capture additional pages, repeat step 4 with a different URL path and output filename.
 
-5. When you're done, stop the development server:
-
-   ```bash
-   kill $SERVER_PID
-   ```
-
-The screenshot is saved as `screenshot.png` in the current directory. Share it or attach it to the task as needed.
+The screenshot is saved as `screenshot.png` in the current directory. Share it or attach it to the task as needed. The trap registered in step 1 ensures the development server is stopped automatically when the shell exits, even if a later step fails.
