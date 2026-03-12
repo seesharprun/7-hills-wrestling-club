@@ -4,7 +4,7 @@ title: About | Seven Hills Wrestling Club
 description: Seven Hills Wrestling Club is a free, city-wide wrestling program for Richmond Public Schools students focused on development, inclusion, and shared resources.
 ---
 
-![Two wrestlers grapple on the mat, one athlete wrapping an arm around the opponent's head while driving forward in a tight scramble.](/media/spikeimage-01.jpg)
+<!-- ![Two wrestlers grapple on the mat, one athlete wrapping an arm around the opponent's head while driving forward in a tight scramble.](/media/spikeimage-01.jpg) -->
 
 # About
 
@@ -23,7 +23,7 @@ Many Richmond schools have small wrestling programs with limited resources. By c
 
 ## Our Approach
 
-We meet once a month on a rotating Thursday schedule hosted at a different Richmond high school each week. Sessions prioritize technique, drilling, and match awareness over conditioning. Every athlete gets meaningful mat time in a supportive environment where questions are welcome and growth is the goal.
+<!-- We meet once a month on a rotating Thursday schedule hosted at a different Richmond high school each week. --> Training sessions prioritize technique, drilling, and match awareness over conditioning. Every athlete gets meaningful mat time in a supportive environment where questions are welcome and growth is the goal.
 
 ## Our Mission
 

@@ -4,7 +4,7 @@ title: Contact | Seven Hills Wrestling Club
 description: Get in touch with Seven Hills Wrestling Club to learn more, sign up your student, or get involved as a coach or volunteer.
 ---
 
-![Wrestler in a ready stance on the edge of the mat, focused on the opponent as coaches and teammates watch from the sideline.](/media/spikeimage-02.jpg)
+<!-- ![Wrestler in a ready stance on the edge of the mat, focused on the opponent as coaches and teammates watch from the sideline.](/media/spikeimage-02.jpg) -->
 
 # Contact
 
@@ -16,4 +16,4 @@ Whether you are a student ready to start wrestling, a parent with questions, or 
 - YouTube: [@7hwc](https://youtube.com/@7hwc)
 - X/Twitter: [@7hw_club](https://x.com/7hw_club)
 
-Reach out by email or social media and we will share the next practice date, location, and everything you need to get on the mat.
+Reach out by email or social media and we will share everything you need to get on the mat.
