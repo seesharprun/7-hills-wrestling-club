@@ -5,7 +5,7 @@ layout: pages.njk
 <section class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] flex w-screen flex-col gap-0">
   <section class="relative min-h-[350px] overflow-hidden border border-zinc-700/80 bg-zinc-900/40">
     <img
-      src="{{ hero.image or 'https://placehold.co/800x600/3f3f46/3f3f46?text=' }}"
+      src="{% if hero.image %}{{ hero.image }}{% else %}{{ '/media/placeholder.png' | url }}{% endif %}"
       alt="{{ hero.alt if hero.image else 'Blank banner image.' }}"
       class="absolute inset-0 h-full w-full object-cover filter grayscale contrast-110 brightness-95 saturate-75"
     />
