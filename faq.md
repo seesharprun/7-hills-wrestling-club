@@ -21,13 +21,13 @@ Any current Richmond Public Schools student. The club is open to every experienc
 
 We meet once a month on a Thursday, rotating between John Marshall, Huguenot, Richmond High School for the Arts, and Armstrong. Each school hosts one session per month. -->
 
-## What should I bring?
+<!-- ## What should I bring?
 
-Athletic clothing, wrestling shoes, a water bottle, and a willingness to learn. Wrestling shoes are required, but if you do not have a pair, let a coach know — they may have a spare set available. Headgear and knee pads are optional.
+Athletic clothing, wrestling shoes, a water bottle, and a willingness to learn. Wrestling shoes are required, but if you do not have a pair, let a coach know — they may have a spare set available. Headgear and knee pads are optional. -->
 
-## What does a typical session look like?
+<!-- ## What does a typical session look like?
 
-Sessions focus on technique and drilling — stance, motion, takedowns, and mat work. We also run controlled live situations so athletes can apply what they learn. The emphasis is on development, not conditioning.
+Sessions focus on technique and drilling — stance, motion, takedowns, and mat work. We also run controlled live situations so athletes can apply what they learn. The emphasis is on development, not conditioning. -->
 
 ## Do you compete in tournaments?
 
