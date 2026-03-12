@@ -15,7 +15,7 @@ To run the site and take a screenshot, follow these steps:
 2. Wait for the server to be ready on `http://localhost:8080`:
 
    ```bash
-   npx --yes wait-on http://localhost:8080
+   npx --yes wait-on --timeout 60000 --interval 1000 http://localhost:8080
    ```
 
 3. Install the Playwright Chromium browser if it isn't already available:
