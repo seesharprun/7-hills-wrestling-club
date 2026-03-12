@@ -21,7 +21,7 @@ To run the site and take a screenshot, follow these steps:
 3. Install the Playwright Chromium browser if it isn't already available:
 
    ```bash
-   npx --yes playwright install --with-deps chromium
+   npx --yes playwright install chromium
    ```
 
 4. Take a screenshot of the home page:
