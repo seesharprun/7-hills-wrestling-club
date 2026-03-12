@@ -4,6 +4,7 @@ title: Programs | Seven Hills Wrestling Club
 description: Monthly rotating practices and development-focused training — all free for Richmond Public Schools wrestlers.
 ---
 
+<!--
 ![Wrestler controls an opponent on the mat, pressing forward from the top while looking for position during live action.](/media/spikeimage-05.jpg)
 
 # Programs
@@ -28,3 +29,4 @@ Sessions focus on technique, drilling, and live situations — not conditioning.
 View the latest dates on the [practice schedule page](/schedule/).
 
 For updates or questions, reach out through the [contact page](/contact/).
+-->
